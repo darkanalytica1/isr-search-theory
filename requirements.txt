@@ -1,0 +1,5 @@
+# Runtime: standard library only.
+# Optional, for PNG plots from the curve command:
+#   matplotlib>=3.7
+# Tests:
+pytest>=7
