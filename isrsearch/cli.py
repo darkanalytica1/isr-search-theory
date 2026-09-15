@@ -55,13 +55,13 @@ def write_curve(plan: SearchPlan, hours: float, step: float, out: Path, extra_ra
     except ImportError:
         return written
     fig, ax = plt.subplots(figsize=(8, 4.5), dpi=150)
-    ax.plot(times, [r[1] for r in rows], color="#1F3A5F", lw=2,
+    ax.plot(times, [r[1] for r in rows], color="#0B2545", lw=2,
             label=f"random search, W = {plan.sweep_width_nm:g} NM")
-    ax.plot(times, [r[2] for r in rows], color="#5B7083", lw=1.75, ls="--", label="parallel sweep")
+    ax.plot(times, [r[2] for r in rows], color="#3E5C76", lw=1.75, ls="--", label="parallel sweep")
     if alt is not None:
-        ax.plot(times, [r[3] for r in rows], color="#A33A2B", lw=1.75,
+        ax.plot(times, [r[3] for r in rows], color="#8A6A1F", lw=1.75,
                 label=f"random, {extra_rate:,.0f} NM²/h (assumed)")
-    ax.axhline(0.9, color="#B8872B", lw=1, ls=":")
+    ax.axhline(0.9, color="#B7791F", lw=1, ls=":")
     ax.set_xlabel("hours on task")
     ax.set_ylabel("probability of detection")
     ax.set_ylim(0, 1)
@@ -72,7 +72,7 @@ def write_curve(plan: SearchPlan, hours: float, step: float, out: Path, extra_ra
     ax.legend(frameon=False, loc="lower right")
     fig.tight_layout()
     png_path = out.with_suffix(".png")
-    fig.savefig(png_path, facecolor="#F6F4EF")
+    fig.savefig(png_path, facecolor="#F5F7FA")
     plt.close(fig)
     written.append(png_path)
     return written
