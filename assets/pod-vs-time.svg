@@ -5,42 +5,42 @@
     .display { font-family: 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; letter-spacing: -0.01em; }
     .sans { font-family: 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
     .mono { font-family: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
-    .label { font-family: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 12px; letter-spacing: 0.08em; fill: #6B7688; }
+    .label { font-family: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 12px; letter-spacing: 0.08em; fill: #5F6B7C; }
 
     @media (prefers-reduced-motion: reduce) {
       *, *::before, *::after { animation: none !important; }
     }
   </style>
   <rect width="1000" height="540" fill="#F5F7FA"/>
-  <text x="90.0" y="40.0" class="mono" font-size="12" fill="#6B7688" text-anchor="start" font-weight="400" letter-spacing="0.03em">ASSUMPTIONS  box 2,000 NM²  ·  80 kt  ·  sweep widths assumed for one target and sea state</text>
+  <text x="90.0" y="40.0" class="mono" font-size="12" fill="#5F6B7C" text-anchor="start" font-weight="400" letter-spacing="0.03em">ASSUMPTIONS  box 2,000 NM²  ·  80 kt  ·  sweep widths assumed for one target and sea state</text>
   <line x1="90.0" y1="70" x2="90.0" y2="450" stroke="#D8DEE6" stroke-width="1" opacity="0.6"/>
-  <text x="90.0" y="472.0" class="mono" font-size="12" fill="#6B7688" text-anchor="middle" font-weight="400" >0</text>
+  <text x="90.0" y="472.0" class="mono" font-size="12" fill="#5F6B7C" text-anchor="middle" font-weight="400" >0</text>
   <line x1="191.2" y1="70" x2="191.2" y2="450" stroke="#D8DEE6" stroke-width="1" opacity="0.6"/>
-  <text x="191.2" y="472.0" class="mono" font-size="12" fill="#6B7688" text-anchor="middle" font-weight="400" >2</text>
+  <text x="191.2" y="472.0" class="mono" font-size="12" fill="#5F6B7C" text-anchor="middle" font-weight="400" >2</text>
   <line x1="292.5" y1="70" x2="292.5" y2="450" stroke="#D8DEE6" stroke-width="1" opacity="0.6"/>
-  <text x="292.5" y="472.0" class="mono" font-size="12" fill="#6B7688" text-anchor="middle" font-weight="400" >4</text>
+  <text x="292.5" y="472.0" class="mono" font-size="12" fill="#5F6B7C" text-anchor="middle" font-weight="400" >4</text>
   <line x1="393.8" y1="70" x2="393.8" y2="450" stroke="#D8DEE6" stroke-width="1" opacity="0.6"/>
-  <text x="393.8" y="472.0" class="mono" font-size="12" fill="#6B7688" text-anchor="middle" font-weight="400" >6</text>
+  <text x="393.8" y="472.0" class="mono" font-size="12" fill="#5F6B7C" text-anchor="middle" font-weight="400" >6</text>
   <line x1="495.0" y1="70" x2="495.0" y2="450" stroke="#D8DEE6" stroke-width="1" opacity="0.6"/>
-  <text x="495.0" y="472.0" class="mono" font-size="12" fill="#6B7688" text-anchor="middle" font-weight="400" >8</text>
+  <text x="495.0" y="472.0" class="mono" font-size="12" fill="#5F6B7C" text-anchor="middle" font-weight="400" >8</text>
   <line x1="596.2" y1="70" x2="596.2" y2="450" stroke="#D8DEE6" stroke-width="1" opacity="0.6"/>
-  <text x="596.2" y="472.0" class="mono" font-size="12" fill="#6B7688" text-anchor="middle" font-weight="400" >10</text>
+  <text x="596.2" y="472.0" class="mono" font-size="12" fill="#5F6B7C" text-anchor="middle" font-weight="400" >10</text>
   <line x1="697.5" y1="70" x2="697.5" y2="450" stroke="#D8DEE6" stroke-width="1" opacity="0.6"/>
-  <text x="697.5" y="472.0" class="mono" font-size="12" fill="#6B7688" text-anchor="middle" font-weight="400" >12</text>
+  <text x="697.5" y="472.0" class="mono" font-size="12" fill="#5F6B7C" text-anchor="middle" font-weight="400" >12</text>
   <line x1="798.8" y1="70" x2="798.8" y2="450" stroke="#D8DEE6" stroke-width="1" opacity="0.6"/>
-  <text x="798.8" y="472.0" class="mono" font-size="12" fill="#6B7688" text-anchor="middle" font-weight="400" >14</text>
+  <text x="798.8" y="472.0" class="mono" font-size="12" fill="#5F6B7C" text-anchor="middle" font-weight="400" >14</text>
   <line x1="900.0" y1="70" x2="900.0" y2="450" stroke="#D8DEE6" stroke-width="1" opacity="0.6"/>
-  <text x="900.0" y="472.0" class="mono" font-size="12" fill="#6B7688" text-anchor="middle" font-weight="400" >16</text>
+  <text x="900.0" y="472.0" class="mono" font-size="12" fill="#5F6B7C" text-anchor="middle" font-weight="400" >16</text>
   <line x1="90" y1="450.0" x2="900" y2="450.0" stroke="#D8DEE6" stroke-width="1" opacity="0.6"/>
-  <text x="80.0" y="454.0" class="mono" font-size="12" fill="#6B7688" text-anchor="end" font-weight="400" >0.00</text>
+  <text x="80.0" y="454.0" class="mono" font-size="12" fill="#5F6B7C" text-anchor="end" font-weight="400" >0.00</text>
   <line x1="90" y1="355.0" x2="900" y2="355.0" stroke="#D8DEE6" stroke-width="1" opacity="0.6"/>
-  <text x="80.0" y="359.0" class="mono" font-size="12" fill="#6B7688" text-anchor="end" font-weight="400" >0.25</text>
+  <text x="80.0" y="359.0" class="mono" font-size="12" fill="#5F6B7C" text-anchor="end" font-weight="400" >0.25</text>
   <line x1="90" y1="260.0" x2="900" y2="260.0" stroke="#D8DEE6" stroke-width="1" opacity="0.6"/>
-  <text x="80.0" y="264.0" class="mono" font-size="12" fill="#6B7688" text-anchor="end" font-weight="400" >0.50</text>
+  <text x="80.0" y="264.0" class="mono" font-size="12" fill="#5F6B7C" text-anchor="end" font-weight="400" >0.50</text>
   <line x1="90" y1="165.0" x2="900" y2="165.0" stroke="#D8DEE6" stroke-width="1" opacity="0.6"/>
-  <text x="80.0" y="169.0" class="mono" font-size="12" fill="#6B7688" text-anchor="end" font-weight="400" >0.75</text>
+  <text x="80.0" y="169.0" class="mono" font-size="12" fill="#5F6B7C" text-anchor="end" font-weight="400" >0.75</text>
   <line x1="90" y1="70.0" x2="900" y2="70.0" stroke="#D8DEE6" stroke-width="1" opacity="0.6"/>
-  <text x="80.0" y="74.0" class="mono" font-size="12" fill="#6B7688" text-anchor="end" font-weight="400" >1.00</text>
+  <text x="80.0" y="74.0" class="mono" font-size="12" fill="#5F6B7C" text-anchor="end" font-weight="400" >1.00</text>
   <text x="495.0" y="500.0" class="sans" font-size="13" fill="#3D4A5C" text-anchor="middle" font-weight="400" >hours on task</text>
   <text x="28.0" y="260.0" class="sans" font-size="13" fill="#3D4A5C" text-anchor="middle" font-weight="400" transform="rotate(-90 28 260.0)">probability of detection</text>
   <line x1="90" y1="108.0" x2="900" y2="108.0" stroke="#B7791F" stroke-width="1.5" stroke-dasharray="4 4"/>
